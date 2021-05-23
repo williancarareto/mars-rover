@@ -1,6 +1,6 @@
 # Mars Rover Algorithm
 
-##Task Details
+## Task Details
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 This plateau, which is curiously rectangular, must be navigated by the rovers so that their on board cameras can get a complete view of the surrounding terrain to send back to Earth.
@@ -44,7 +44,29 @@ MMRMMRMRRM <br/>
 
 ##Solution and explanation: 
 
-## Cordinates representing Plateou Rover
+## Coordinates representing Plateou Rover
 
-<img src="./images/Coordinates.png">
+
+<img src="./images/Coordinates.png" width="550" height="550">
+
+## Directions formulas (North, South, West and East) 
+<img src="./images/Directions.png" width="550" height="550">
+
+---
+
+## SOLUTION STEP BY STEP
+
+<img src="./images/Rover1_Solution.png" width="500" height="500">
+
+
+<img src="./images/Rover2_Solution.png" width="500" height="500">
+
+
+
+
+
+
+
+
+
 
