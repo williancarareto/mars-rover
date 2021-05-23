@@ -40,7 +40,6 @@ MMRMMRMRRM <br/>
 1 3 N <br/>
 5 1 E <br/>
 
----
 
 ## SOLUTION AND EXPLANATION: 
 
@@ -49,10 +48,12 @@ MMRMMRMRRM <br/>
 
 <img src="./images/Coordinates.png" width="550" height="550">
 
-## Directions formulas (North, South, West and East) 
+## DIRECTIONS FORMULAS (NORTH, SOUTH, WEST and EAST) 
 <img src="./images/Directions.png" width="550" height="550">
 
 ---
+
+# HOW TO THINK ABOUT THE TASK STEP BY STEP?
 
 <img src="./images/Rover1_Solution.png" width="500" height="500">
 
