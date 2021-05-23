@@ -1,17 +1,19 @@
 package com.marsrovers.models;
 
+import java.util.List;
+
 public class Rover {
 
     private int x;
     private int y;
     private Directions direction;
-    private String actions;
+    private List<Actions> actions;
 
     public Rover(int x, int y, Directions direction, String actions) {
         this.x = x;
         this.y = y;
         this.direction = direction;
-        this.actions = actions;
+        this.actions = Actions.convertToList(actions);
     }
 
     public int getX() {
@@ -38,7 +40,7 @@ public class Rover {
         this.direction = direction;
     }
 
-    public String getActions() {
+    public List<Actions> getActions() {
         return actions;
     }
 }
