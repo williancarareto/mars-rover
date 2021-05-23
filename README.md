@@ -61,6 +61,29 @@ MMRMMRMRRM <br/>
 <img src="./images/Rover2_Solution.png" width="500" height="500">
 
 
+## PROJECT STRUCTURE
+
+The requirement to write the solution and the TDD Tests it was thinking using the structure below:
+
+#### Enums: 
+
+* Actions: L (Left), R (Right) and M (Move) 
+* Coordinates: N (North), S (South), E (East) and W (West)
+
+#### Plateu (where rover will run):
+
+* data to clarify the size
+* Rover: list of rover
+* Validations: if plateau on X and Y coordinates are bigger than 0; if the rovers position is valid; colisions when rovers is running
+
+#### Rover:
+
+* Initial position
+* Direction (N, S, E and W)
+* Actions (L, R and M)
+* Validations: if position is bigger than 0, if the letter for Actions are correct
+* Entry class for users run the code
+
 
 
 
