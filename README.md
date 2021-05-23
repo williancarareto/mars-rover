@@ -72,7 +72,7 @@ The requirement to write the solution and the TDD Tests it was thinking using th
 
 #### Plateu (where rover will run):
 
-* data to clarify the size
+* Data to clarify the size
 * Rover: list of rover
 * Validations: if plateau on X and Y coordinates are bigger than 0; if the rovers position is valid; colisions when rovers is running
 
