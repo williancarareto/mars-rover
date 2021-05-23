@@ -1,5 +1,7 @@
 package com.marsrovers.models;
 
+import com.marsrovers.exceptions.InvalidCoordinatesException;
+
 import java.util.List;
 
 public class Rover {
@@ -10,6 +12,10 @@ public class Rover {
     private List<Actions> actions;
 
     public Rover(int x, int y, Directions direction, String actions) {
+        if (!isCoordinatesValid(x, y)) {
+            throw new InvalidCoordinatesException("Invalid position on x: " + x + " and y: " + y);
+        }
+
         this.x = x;
         this.y = y;
         this.direction = direction;
@@ -42,5 +48,9 @@ public class Rover {
 
     public List<Actions> getActions() {
         return actions;
+    }
+
+    private boolean isCoordinatesValid(int x, int y) {
+        return x > 0 && y > 0;
     }
 }

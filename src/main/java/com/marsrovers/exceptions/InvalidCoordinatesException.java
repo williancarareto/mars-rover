@@ -1,6 +1,6 @@
 package com.marsrovers.exceptions;
 
-public class InvalidCoordinatesException extends Exception {
+public class InvalidCoordinatesException extends RuntimeException {
 
     public InvalidCoordinatesException() {
     }
