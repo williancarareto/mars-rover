@@ -42,7 +42,7 @@ MMRMMRMRRM <br/>
 
 ---
 
-##Solution and explanation: 
+## SOLUTION AND EXPLANATION: 
 
 ## Coordinates representing Plateou Rover
 
@@ -54,10 +54,9 @@ MMRMMRMRRM <br/>
 
 ---
 
-## SOLUTION STEP BY STEP
-
 <img src="./images/Rover1_Solution.png" width="500" height="500">
 
+---
 
 <img src="./images/Rover2_Solution.png" width="500" height="500">
 
