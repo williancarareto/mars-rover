@@ -5,27 +5,27 @@ import org.junit.Test;
 public class RoverTest {
 
     @Test
-    public void roverSize_WhenXIsNegative_ThrowsException(){
+    public void roverSize_whenXIsNegative_throwsException(){
 
     }
 
     @Test
-    public void roverSize_WhenYIsNegative_ThrowsException(){
+    public void roverSize_whenYIsNegative_throwsException(){
 
     }
 
     @Test
-    public void roverSizer_WhenXAndYAreValid_ShouldCreateRoverSuccessfully(){
+    public void roverSizer_whenXAndYAreValid_shouldCreateRoverSuccessfully(){
 
     }
 
     @Test
-    public void roverActions_WhenThereIsAInvalidAction_ThrowsException(){
+    public void roverActions_whenThereIsAInvalidAction_throwsException(){
 
     }
 
     @Test
-    public void roverActions_WhenActionsAreValid_ShouldCreateRoverSuccessfully() {
+    public void roverActions_whenActionsAreValid_shouldCreateRoverSuccessfully() {
 
     }
 }
