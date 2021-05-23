@@ -1,14 +1,24 @@
 package com.marsrovers;
 
+import com.marsrovers.models.Rover;
+
+import java.util.List;
+
 public class Plateau {
 
-    //max size plateau on pointer x
-    public static int plateauSizeX(int x) {
-        return x;
+    private int x;
+    private int y;
+    private List<Rover> rovers;
+
+    public void browseRovers(){
+
     }
 
-    //max size plateau on pointer y
-    public static int plateauSizeY(int y) {
-        return y;
+    public void registerRover(Rover rover){
+
+    }
+
+    public List<Rover> getRovers() {
+        return rovers;
     }
 }
