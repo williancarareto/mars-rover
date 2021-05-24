@@ -57,7 +57,6 @@ MMRMMRMRRM <br/>
 
 <img src="./images/Rover1_Solution.png" width="500" height="500">
 
----
 
 <img src="./images/Rover2_Solution.png" width="500" height="500">
 
@@ -75,15 +74,60 @@ The requirement to write the solution and the TDD Tests it was thinking using th
 
 * Data to clarify the size
 * Rover: list of rover
-* Validations: if plateau on X and Y coordinates are bigger than 0; if the rovers position is valid; colisions when rovers is running
+* Validations: if plateau on X and Y coordinates are bigger than 0; if the rovers position is valid; colisions when rover is running
 
 #### Rover:
 
 * Initial position
-* Direction (N, S, E and W)
-* Actions (L, R and M)
+* Directions: (N, S, E and W)
+* Actions: (L, R and M)
 * Validations: if position is bigger than 0, if the letter for Actions are correct
 * Entry class for users run the code
+
+---
+
+### HOW TO RUN THE TASK?
+
+Clone this repository to your local machine. With IntelliJ (or other IDE) build the project using Maven and JDK 11.
+
+Follow the steps below:
+
+##### Click with the right botton on Main.class:</br>
+<img src="./images/Main.png" width="350" height="350">
+
+##### CLick on Run_'Main.main()':</br>
+<img src="./images/RunningMain.png" width="350" height="350">
+
+##### Inform the Plateau Size:</br>
+<img src="./images/PlateauSize.png" width="350" height="350">
+
+##### Inform how many rovers to run:</br>
+<img src="./images/RoverQuantity.png" width="350" height="350">
+
+##### Inform the coordinates for Rover1:</br>
+<img src="./images/Rover1_Data.png" width="350" height="350">
+
+##### Inform the commands for Rover1:</br>
+<img src="./images/Rover1_Actions.png" width="350" height="350">
+
+##### Inform the coordinates for Rover2:</br>
+<img src="./images/Rover2_Data.png" width="350" height="350">
+
+##### Inform the commands for Rover2:</br>
+<img src="./images/Rover2_Actions.png" width="350" height="350">
+
+##### The result will be shown:</br>
+<img src="./images/Test_Result.png" width="350" height="350">
+
+
+
+
+
+
+
+
+
+
 
 
 
