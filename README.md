@@ -40,17 +40,32 @@ MMRMMRMRRM <br/>
 1 3 N <br/>
 5 1 E <br/>
 
+__________________________________________________________________________________________________________
 
+### NOTES TO SOLVE THE TASK: 
 
-# SOLUTION AND EXPLANATION: 
-
-### COORDINATES REPRESENTING PLATEAU ROVER
+#### COORDINATES REPRESENTING PLATEAU ROVER
 
 <img src="./images/Coordinates.png" width="550" height="550">
 
-### DIRECTIONS FORMULAS (NORTH, SOUTH, WEST and EAST) 
+#### DIRECTIONS FORMULAS (NORTH, SOUTH, WEST and EAST) 
 <img src="./images/Directions.png" width="550" height="550">
 
+#### DIRECTIONS + MOVIMENTS:
+
+North + Right = East</br>
+North + Left = West
+
+South + Right = West</br>
+South + Left = East</br>
+
+West + Right = North</br>
+West + Left = South</br>
+
+East + Right = South</br>
+East + Left = North</br>
+
+__________________________________________________________________________________________________________
 
 ### HOW TO THINK ABOUT THE TASK STEP BY STEP?
 
@@ -59,6 +74,7 @@ MMRMMRMRRM <br/>
 
 <img src="./images/Rover2_Solution.png" width="500" height="500">
 
+__________________________________________________________________________________________________________
 
 ### PROJECT STRUCTURE
 
@@ -83,6 +99,7 @@ The requirement to write the solution and the TDD Tests it was thinking using th
 * Validations: if position is bigger than 0, if the letter for Actions are correct
 * Entry class for users run the code
 
+__________________________________________________________________________________________________________
 
 ### HOW TO RUN THE TASK?
 
