@@ -1,4 +1,4 @@
-# Mars Rover Algorithm
+# MARS ROVER ALGORITHM
 
 ## Task Details
 
@@ -12,7 +12,7 @@ In order to control a rover, NASA sends a simple string of letters. The possible
 
 Assume that the square directly North from (x, y) is (x, y+1).
 
-# Input:
+## Input:
 
 The first line of input is the upper-right coordinates of the plateau, the lower-left coordinates are assumed to be 0,0.
 The rest of the input is information pertaining to the rovers that have been deployed. Each rover has two lines of input. The first line gives the rover's position, and the second line is a series of instructions telling the rover how to explore the plateau.
@@ -23,7 +23,7 @@ orientation.
 Each rover will be finished sequentially, which means that the second rover won't start to move until the first one has finished 
 moving.
 
-# Output:
+## Output:
 
 The output for each rover should be its final co-ordinates and heading.
 
@@ -41,19 +41,18 @@ MMRMMRMRRM <br/>
 5 1 E <br/>
 
 
-## SOLUTION AND EXPLANATION: 
 
-## Coordinates representing Plateou Rover
+# SOLUTION AND EXPLANATION: 
 
+### COORDINATES REPRESENTING PLATEAU ROVER
 
 <img src="./images/Coordinates.png" width="550" height="550">
 
-## DIRECTIONS FORMULAS (NORTH, SOUTH, WEST and EAST) 
+### DIRECTIONS FORMULAS (NORTH, SOUTH, WEST and EAST) 
 <img src="./images/Directions.png" width="550" height="550">
 
----
 
-# HOW TO THINK ABOUT THE TASK STEP BY STEP?
+### HOW TO THINK ABOUT THE TASK STEP BY STEP?
 
 <img src="./images/Rover1_Solution.png" width="500" height="500">
 
@@ -61,7 +60,7 @@ MMRMMRMRRM <br/>
 <img src="./images/Rover2_Solution.png" width="500" height="500">
 
 
-## PROJECT STRUCTURE
+### PROJECT STRUCTURE
 
 The requirement to write the solution and the TDD Tests it was thinking using the structure below:
 
@@ -84,7 +83,6 @@ The requirement to write the solution and the TDD Tests it was thinking using th
 * Validations: if position is bigger than 0, if the letter for Actions are correct
 * Entry class for users run the code
 
----
 
 ### HOW TO RUN THE TASK?
 
