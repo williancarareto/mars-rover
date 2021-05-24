@@ -86,7 +86,7 @@ The requirement to write the solution and the TDD Tests it was thinking using th
 
 ### HOW TO RUN THE TASK?
 
-Clone this repository to your local machine. With IntelliJ (or other IDE) build the project using Maven and JDK 11.
+Clone this repository to your local machine. Open the project with IntelliJ (or other IDE) and build the project using Maven and JDK 11.
 
 Follow the steps below:
 
