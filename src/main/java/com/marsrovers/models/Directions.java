@@ -11,6 +11,10 @@ public enum Directions {
         this.direction = direction;
     }
 
+    public char getDirection() {
+        return direction;
+    }
+
     public static Directions getDirection(char directionChar){
         Directions[] directions = Directions.values();
 
