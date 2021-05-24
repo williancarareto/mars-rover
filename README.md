@@ -44,12 +44,16 @@ ________________________________________________________________________________
 
 ### NOTES TO SOLVE THE TASK: 
 
+---
+
 #### COORDINATES REPRESENTING PLATEAU ROVER
 
 <img src="./images/Coordinates.png" width="550" height="550">
 
 #### DIRECTIONS FORMULAS (NORTH, SOUTH, WEST and EAST) 
 <img src="./images/Directions.png" width="550" height="550">
+
+---
 
 #### DIRECTIONS + MOVIMENTS:
 
@@ -133,6 +137,8 @@ Follow the steps below:
 
 ##### The result will be shown:</br>
 <img src="./images/Test_Result.png" width="350" height="350">
+
+
 
 
 
