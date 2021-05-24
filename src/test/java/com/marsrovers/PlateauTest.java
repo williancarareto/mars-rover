@@ -11,7 +11,7 @@ import org.junit.Test;
 
 import java.util.List;
 
-public class PlateauTests {
+public class PlateauTest {
 
     @Test(expected = InvalidCoordinatesException.class)
     public void plateauSize_whenXIsNegative_throwsException() {

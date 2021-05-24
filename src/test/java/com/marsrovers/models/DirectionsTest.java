@@ -4,7 +4,7 @@ import com.marsrovers.exceptions.InvalidDirectionException;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class DirectionsTests {
+public class DirectionsTest {
 
     @Test(expected = InvalidDirectionException.class)
     public void directions_whenLetterIsInvalid_ThrowsException() {

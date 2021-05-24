@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import java.util.List;
 
-public class ActionsTests {
+public class ActionsTest {
 
     @Test(expected = InvalidActionException.class)
     public void actions_whenLetterIsInvalid_ThrowsException(){
