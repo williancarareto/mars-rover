@@ -46,7 +46,7 @@ ________________________________________________________________________________
 
 ---
 
-#### COORDINATES REPRESENTING PLATEAU ROVER
+#### COORDINATES REPRESENTING PLATEAU ROVER: X and Y
 
 <img src="./images/Coordinates.png" width="550" height="550">
 
